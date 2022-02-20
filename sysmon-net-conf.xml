@@ -290,6 +290,9 @@
 			<Image condition="image">winexesvc.exe</Image> <!-- Winexe service executable | Credit @Cyb3rOps -->
 			<Image condition="image">nmap.exe</Image>
 			<Image condition="image">psinfo.exe</Image>
+			<!-- Virtualized Environment - VMWare -->
+			<Image condition="image">vsnm.exe</Image> <!-- VMware Horozon Agent -->
+			<Image condition="image">vmtoolsdexe</Image> <!-- VMware Tools - Object sysncronization between host and guest OS -->>
 			<!--Ports: Suspicious-->
 			<DestinationPort name="SSH" condition="is">22</DestinationPort> <!--SSH protocol, monitor admin connections-->
 			<DestinationPort name="Telnet" condition="is">23</DestinationPort> <!--Telnet protocol, monitor admin connections, insecure-->
