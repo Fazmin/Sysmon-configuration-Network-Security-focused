@@ -293,7 +293,8 @@
 			<!-- Virtualized Environment - VMWare -->
 			<Image condition="image">vsnm.exe</Image> <!-- VMware Horozon Agent -->
 			<Image condition="image">vmlm.exe</Image> <!-- VMware Horozon View Logon Monitor -->
-			<Image condition="image">vmtoolsdexe</Image> <!-- VMware Tools - Object sysncronization between host and guest OS -->>
+			<Image condition="image">vmtoolsd.exe</Image> <!-- VMware Tools - Object sysncronization between host and guest OS -->
+			<Image condition="image">ws_scripthost.exe</Image> <!-- VMware View Script host -->
 			<!--Ports: Suspicious-->
 			<DestinationPort name="SSH" condition="is">22</DestinationPort> <!--SSH protocol, monitor admin connections-->
 			<DestinationPort name="Telnet" condition="is">23</DestinationPort> <!--Telnet protocol, monitor admin connections, insecure-->
