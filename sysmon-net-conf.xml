@@ -295,6 +295,7 @@
 			<Image condition="image">vmlm.exe</Image> <!-- VMware Horozon View Logon Monitor -->
 			<Image condition="image">vmtoolsd.exe</Image> <!-- VMware Tools - Object sysncronization between host and guest OS -->
 			<Image condition="image">ws_scripthost.exe</Image> <!-- VMware View Script host -->
+			<Image condition="image">ws_scripthost.exe</Image> <!-- VMware View Script host -->
 			<!--Ports: Suspicious-->
 			<DestinationPort name="SSH" condition="is">22</DestinationPort> <!--SSH protocol, monitor admin connections-->
 			<DestinationPort name="Telnet" condition="is">23</DestinationPort> <!--Telnet protocol, monitor admin connections, insecure-->
@@ -678,6 +679,7 @@
 			<TargetFilename condition="contains">Temp\7z</TargetFilename> <!--7zip extractions-->
 			<TargetFilename condition="contains">Startup</TargetFilename> <!--ADS startup | Example: [ https://www.hybrid-analysis.com/sample/a314f6106633fba4b70f9d6ddbee452e8f8f44a72117749c21243dc93c7ed3ac?environmentId=100 ] -->
 			<TargetFilename condition="end with">.bat</TargetFilename> <!--Batch scripting-->
+			<TargetFilename condition="end with">.py</TargetFilename> <!--Python scripting-->
 			<TargetFilename condition="end with">.cmd</TargetFilename> <!--Batch scripting | Credit @ion-storm -->
 			<TargetFilename condition="end with">.doc</TargetFilename> <!--Office doc potentially with macro -->
 			<TargetFilename condition="end with">.hta</TargetFilename> <!--Scripting-->
