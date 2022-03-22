@@ -240,6 +240,8 @@
 			<Image name="Caution" condition="begin with">C:\intel</Image> <!-- Credit @blu3_team [ https://blu3-team.blogspot.com/2019/05/netconn-from-suspicious-directories.html ] -->
 			<Image name="Caution" condition="begin with">C:\Windows\fonts</Image> <!-- Credit @blu3_team [ https://blu3-team.blogspot.com/2019/05/netconn-from-suspicious-directories.html ] -->
 			<Image name="Caution" condition="begin with">C:\Windows\system32\config</Image> <!-- Credit @blu3_team [ https://blu3-team.blogspot.com/2019/05/netconn-from-suspicious-directories.html ] -->
+			<!--ZOOM-->
+			<Image condition="image">Zoom.exe</Image> <!--Zoom Messaging Service-->
 			<!--Suspicious Windows tools-->
 			<Image condition="image">at.exe</Image> <!--Windows: Remote task scheduling, removed in Win10 | Credit @ion-storm -->
 			<Image condition="image">certutil.exe</Image> <!--Windows: Certificate tool can contact outbound | Credit @ion-storm @FVT [ https://twitter.com/FVT/status/834433734602530817 ] -->
