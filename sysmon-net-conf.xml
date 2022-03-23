@@ -5,7 +5,7 @@
   Source project:	https://github.com/fazmin/Sysmon-Configuration-file-Network-focused
   Source license:	Creative Commons Attribution 4.0 | You may privatize, fork, edit, teach, publish, or deploy for commercial use - with attribution in the text.
 
-  Fork version:	1.41v
+  Fork version:	1.43v
   Fork author:	Fazmin Nizam
 
   REQUIRED: Sysmon version 13 or higher (due to changes in syntax and bug-fixes)
